@@ -1,7 +1,7 @@
 {
-  "title": "Seven",
-  "description": "An Eleventy theme based on <a href=\"http://getbootstrap.com/\">bootstrap</a> and bootstrap4layouts",
-  "url": "seventy.tech",
+  "title": "Raybo.org",
+  "description": "The official site for Ray Villalobos. Senior Staff Author for LinkedIn Learning and Lynda.com. I love to help people learn complex topics in a clear, practical way.",
+  "url": "raybo.org",
   "feed": {
     "summary": "An Eleventy theme based on <a href=\"http://getbootstrap.com/\">bootstrap</a> and bootstrap4layouts",
     "filename": "feed.xml",
