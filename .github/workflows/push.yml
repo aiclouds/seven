@@ -14,14 +14,7 @@ jobs:
         env:
           ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
         with:
-          args: 'alias `cat $HOME/deploy.txt`'
-      - name: master-branch-filter
-        uses: actions/bin/filter@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-        with:
-          args: branch master
+          args: alias --local-config=./site/now.json
       - name: release
         uses: actions/zeit-now@master
         env:
